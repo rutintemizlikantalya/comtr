@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ALANADINIZ/sitemap.xml
+Sitemap: https://rutintemizlikantalya.com.tr/sitemap.xml
