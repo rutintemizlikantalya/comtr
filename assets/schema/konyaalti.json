@@ -1,0 +1,41 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://www.rutintemizlikantalya.com.tr/" },
+          { "@type": "ListItem", "position": 2, "name": "Konyaaltı", "item": "https://www.rutintemizlikantalya.com.tr/konyaalti/" }
+        ]
+      },
+      {
+        "@type": "Service",
+        "name": "Konyaaltı ev, ofis ve apartman temizliği",
+        "serviceType": "Temizlik",
+        "provider": { "@type": "HousekeepingService", "name": "Rutin Temizlik", "url": "https://www.rutintemizlikantalya.com.tr/" },
+        "areaServed": { "@type": "AdministrativeArea", "name": "Konyaaltı, Antalya" },
+        "url": "https://www.rutintemizlikantalya.com.tr/konyaalti/"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Geyikbayırı ve Çakırlar’a da geliyor musunuz?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet. Konyaaltı’nın 39 mahallesinin hepsine çıkıyoruz. Yamaç mahallelerinde süreyi yol ve evin durumuna göre mesajda netleştiririz."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Yazlık daire temizlenir mi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kışın kapalı kalmış, içinde yaşanabilir durumdaki yazlık temizlenir. Daire oturulabilir durumdaysa yazlık iç temizliği yapılır."
+            }
+          }
+        ]
+      }
+    ]
+  }

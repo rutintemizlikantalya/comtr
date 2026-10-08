@@ -1,0 +1,130 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "HousekeepingService",
+        "@id": "https://www.rutintemizlikantalya.com.tr/#isletme",
+        "name": "Rutin Temizlik",
+        "alternateName": "Rutin Temizlik Antalya",
+        "description": "Antalya Konyaaltı, Muratpaşa ve Kepez ilçelerinde ev, ofis ve apartman temizliği. Randevuyla, malzemeli ekip.",
+        "url": "https://www.rutintemizlikantalya.com.tr/",
+        "image": [
+          "https://www.rutintemizlikantalya.com.tr/assets/logo.png",
+          "https://www.rutintemizlikantalya.com.tr/assets/images/og.jpg"
+        ],
+        "sameAs": ["https://www.instagram.com/rutintemizlikantalya/"],
+        "telephone": ["+905330978924", "+905050680307"],
+        "currenciesAccepted": "TRY",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Antalya",
+          "addressRegion": "Antalya",
+          "addressCountry": "TR"
+        },
+        "areaServed": [
+          { "@type": "AdministrativeArea", "name": "Konyaaltı, Antalya" },
+          { "@type": "AdministrativeArea", "name": "Muratpaşa, Antalya" },
+          { "@type": "AdministrativeArea", "name": "Kepez, Antalya" }
+        ],
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "00:00",
+          "closes": "23:59"
+        },
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+905330978924",
+            "contactType": "reservations",
+            "availableLanguage": "Turkish",
+            "areaServed": "TR",
+            "hoursAvailable": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+              "opens": "00:00",
+              "closes": "23:59"
+            }
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+905050680307",
+            "contactType": "customer support",
+            "availableLanguage": "Turkish",
+            "areaServed": "TR"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Temizlik hizmetleri",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ev temizliği" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ofis temizliği" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Apartman temizliği" } }
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.rutintemizlikantalya.com.tr/#sss",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Hangi tür temizlik yapıyorsunuz?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Oturulan ev, çalışan ofis ve apartman ortak alanlarında iç temizlik yapıyoruz. Odak noktamız yaşamaya ve çalışmaya uygun mekânlardır."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Hangi mahallelere geliyorsunuz?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Konyaaltı’nın 39, Muratpaşa’nın 55 ve Kepez’in 68 mahallesine geliyoruz. Mahalle adını randevu mesajında yazmanız yeterli."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Nasıl randevu alırım?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "+90 (533) 097 89 24 veya +90 (505) 068 03 07 numarasına WhatsApp’tan yazın. İlçe, mahalle, oda sayısı ya da ofis metrekaresi ve istediğiniz günü belirtin. İletişim formunu doldurursanız mesaj aynı hatta açılır."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Pazar günü de geliyor musunuz?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet. Hat haftanın 7 günü, günün her saati açıktır. Ekip, anlaştığımız saatte adrese gelir."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Malzeme ve ekipman sizden mi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet. Ekip temizlik malzemesi ve ekipmanıyla gelir. Evinizde belirli bir ürün kullanılmasını istiyorsanız randevu mesajında yazın."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Ücret nasıl belli olur?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yayınlanmış sabit fiyat listemiz yok. Oda sayısı, banyo sayısı, evin durumu ve işin tek sefer ya da haftalık olması ücreti değiştirir. Bu bilgileri WhatsApp’tan yazın; rakamı mesajda netleştirelim."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.rutintemizlikantalya.com.tr/#website",
+        "url": "https://www.rutintemizlikantalya.com.tr/",
+        "name": "Rutin Temizlik",
+        "inLanguage": "tr-TR",
+        "publisher": { "@id": "https://www.rutintemizlikantalya.com.tr/#isletme" }
+      }
+    ]
+  }

@@ -1,0 +1,41 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://www.rutintemizlikantalya.com.tr/" },
+          { "@type": "ListItem", "position": 2, "name": "Kepez", "item": "https://www.rutintemizlikantalya.com.tr/kepez/" }
+        ]
+      },
+      {
+        "@type": "Service",
+        "name": "Kepez ev, ofis ve apartman temizliği",
+        "serviceType": "Temizlik",
+        "provider": { "@type": "HousekeepingService", "name": "Rutin Temizlik", "url": "https://www.rutintemizlikantalya.com.tr/" },
+        "areaServed": { "@type": "AdministrativeArea", "name": "Kepez, Antalya" },
+        "url": "https://www.rutintemizlikantalya.com.tr/kepez/"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Varsak ile Kepez merkez aynı listede mi?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet. Karşıyaka, Esentepe ve Menderes’in Varsak tarafı da Kepez ilçesindedir. Formda ayırt etmek için parantez içindeki adı yazın."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apartman merdiveni için haftalık plan olur mu?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Olur. Kat sayısı ve asansör yazıldığında haftalık veya ayda iki kez plan kurulur. Daire içi temizlik ayrı randevudur."
+            }
+          }
+        ]
+      }
+    ]
+  }

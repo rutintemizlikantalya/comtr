@@ -1,0 +1,41 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://www.rutintemizlikantalya.com.tr/" },
+          { "@type": "ListItem", "position": 2, "name": "Muratpaşa", "item": "https://www.rutintemizlikantalya.com.tr/muratpasa/" }
+        ]
+      },
+      {
+        "@type": "Service",
+        "name": "Muratpaşa ev, ofis ve apartman temizliği",
+        "serviceType": "Temizlik",
+        "provider": { "@type": "HousekeepingService", "name": "Rutin Temizlik", "url": "https://www.rutintemizlikantalya.com.tr/" },
+        "areaServed": { "@type": "AdministrativeArea", "name": "Muratpaşa, Antalya" },
+        "url": "https://www.rutintemizlikantalya.com.tr/muratpasa/"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Akşam ofis temizliği var mı?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Var. Şirinyalı, Güzeloba, Fener ve Meltem’deki bürolar için ekip genelde 18.00’den sonra veya sabah açılıştan önce gelir. Saat WhatsApp’ta birlikte kararlaştırılır."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dar merdivenli eski apartmanlara çıkıyor musunuz?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet. Balbey, Haşimişcan ve Kaleiçi çevresindeki binalar da Muratpaşa listesindedir. Kat sayısı ve asansör bilgisi süreyi belirler."
+            }
+          }
+        ]
+      }
+    ]
+  }
