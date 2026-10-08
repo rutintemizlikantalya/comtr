@@ -1,4 +1,0 @@
-﻿User-agent: *
-Allow: /
-
-Sitemap: https://www.rutintemizlikantalya.com.tr/sitemap.xml
