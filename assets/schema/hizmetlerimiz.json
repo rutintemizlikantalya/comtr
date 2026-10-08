@@ -1,0 +1,81 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://www.rutintemizlikantalya.com.tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Hizmetlerimiz", "item": "https://www.rutintemizlikantalya.com.tr/hizmetlerimiz/" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Antalya ev temizliği fiyatı ne kadar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sabit tarife yayınlamıyoruz. Oda–banyo sayısı, eşya durumu, tek sefer veya periyodik oluşu ücreti değiştirir. WhatsApp’ta bilgiyi yazın; rakamı mesajda netleştiririz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ev temizliği ne kadar sürer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "1+1 dairelerin çoğu 2–3 saatte, 2+1 ve 3+1 dairelerin çoğu 3–5 saatte biter. Uzun süredir temizlenmemiş veya çok eşyalı evde süre uzar; bunu randevuda söyleriz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Detaylı ev temizliği ile rutin temizlik farkı nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rutin / periyodik ziyaret düzeni korur. Uzun süre kapalı kalmış veya taşınma sonrası dairede ilk iş daha uzun sürebilir; bunu detaylı tek sefer diye planlarız. Kapsam yine mutfak–banyo–zemin–toz–cam içidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Boş daire veya eşyasız ev temizliği yapıyor musunuz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Daire yaşamaya uygun ve güvenliyse ev temizliği yapılır. Eşyasız dairede süre genelde kısalır. İnşaat artığı / molozlu şantiye alınmaz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cam ve ayna temizliği ev işine dahil mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet: ulaşılabilen camın iç yüzeyi ve banyo aynası. Dış cephe ve vinç işi yoktur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ofiste evraklara dokunulur mu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. Masa üstü, siz özellikle istemedikçe toparlanmaz. Yer, tuvalet, mutfak nişi, çöp ve camın iç yüzeyi yapılır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Taşınma veya tadilat sonrası daire temizlenir mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Daire yaşamaya uygun durumdaysa ev temizliği yapılır. Odak noktamız oturulabilir mekânlardır; inşaat sonrası kaba temizlik değildir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Apartman merdiven temizliği daire işinden ayrı mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet. Ortak alan ayrı randevudur. Aynı gün istenirse iki iş olarak yazılır; süre kat sayısı ve asansöre göre değişir."
+          }
+        }
+      ]
+    }
+  ]
+}

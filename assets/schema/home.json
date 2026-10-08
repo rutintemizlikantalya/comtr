@@ -1,0 +1,178 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "HousekeepingService",
+      "@id": "https://www.rutintemizlikantalya.com.tr/#isletme",
+      "name": "Rutin Temizlik",
+      "alternateName": "Rutin Temizlik Antalya",
+      "description": "Antalya Konyaaltı, Muratpaşa ve Kepez ilçelerinde ev, ofis ve apartman temizliği. Randevuyla, malzemeli ekip.",
+      "url": "https://www.rutintemizlikantalya.com.tr/",
+      "image": [
+        "https://www.rutintemizlikantalya.com.tr/assets/logo.png",
+        "https://www.rutintemizlikantalya.com.tr/assets/images/og.jpg"
+      ],
+      "sameAs": ["https://www.instagram.com/rutintemizlikantalya/"],
+      "telephone": ["+905330978924", "+905050680307"],
+      "currenciesAccepted": "TRY",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Antalya",
+        "addressRegion": "Antalya",
+        "addressCountry": "TR"
+      },
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Konyaaltı, Antalya" },
+        { "@type": "AdministrativeArea", "name": "Muratpaşa, Antalya" },
+        { "@type": "AdministrativeArea", "name": "Kepez, Antalya" }
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+905330978924",
+          "contactType": "reservations",
+          "availableLanguage": "Turkish",
+          "areaServed": "TR",
+          "hoursAvailable": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "00:00",
+            "closes": "23:59"
+          }
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+905050680307",
+          "contactType": "customer support",
+          "availableLanguage": "Turkish",
+          "areaServed": "TR"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Temizlik hizmetleri",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ev temizliği" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ofis temizliği" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Apartman temizliği" } }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.rutintemizlikantalya.com.tr/#sss",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Antalya’da hangi bölgelerde ev temizliği yapıyorsunuz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yalnızca Konyaaltı, Muratpaşa ve Kepez. Bu üç ilçenin kayıtlı tüm mahallelerine geliyoruz (39 / 55 / 68). Alanya, Serik veya ilçe dışı adreslere çıkmıyoruz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Antalya ev temizliğine neler dahildir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yerlerin süpürülüp silinmesi; mutfak tezgâhı, ocak yüzeyi, evye ve dolap dışları; banyo, tuvalet, ayna; ulaşılabilen rafların tozu; çöpler; camın iç yüzeyi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ev temizliği ne kadar sürer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "1+1 dairelerin çoğu 2–3 saatte, 2+1 ve 3+1 dairelerin çoğu 3–5 saatte biter. Çok eşyalı veya uzun süredir kapalı evde süre uzar; bunu randevuda söyleriz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Periyodik (haftalık) ev temizliği var mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet. Haftalık veya iki haftada bir plan kurulabilir. Tek seferlik detaylı temizlik de alınır. Sıklığı WhatsApp’ta netleştiririz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Eşyalı ev ve taşınma sonrası daire temizlenir mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eşyalı, oturulan daire temizliği ana işimizdir. Taşınma veya tadilat sonrası daire yaşamaya uygunsa aynı kapsamda ev temizliği yapılır. İnşaat molozu ve şantiye işi yoktur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cam temizliği yapıyor musunuz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ev ve ofis randevusunda camın iç yüzeyi, ulaşılabilen kanatlarda dahildir. Dış cephe, vinç veya bina dışı cam ayrı iş değildir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nasıl randevu alırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "+90 (533) 097 89 24 veya +90 (505) 068 03 07 WhatsApp hattına yazın. İlçe, mahalle, oda sayısı ve istediğiniz günü belirtin. İletişim formu aynı sohbeti açar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ev temizliği fiyatı nasıl belirlenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sabit fiyat listesi yayınlamıyoruz. Oda ve banyo sayısı, eşya yoğunluğu, evin durumu, tek sefer veya periyodik olması ücreti değiştirir. Bilgiyi yazın; rakamı mesajda netleştiririz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Malzeme ve ekipman sizden mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet. Ekip malzemesini yanında getirir. Belirli bir ürün kullanılmasını istiyorsanız randevu mesajında yazın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pazar günü ev temizliği geliyor musunuz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet. Hat haftanın 7 günü açıktır. Ekip, anlaştığımız saatte adrese gelir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ofis ve apartman temizliği de var mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet. Çalışan ofislerde evrak oynatılmaz; apartmanda merdiven, asansör ve giriş ortak alanı yapılır. İnşaat, koltuk yıkama ve halı yıkama yoktur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İnşaat sonrası veya koltuk yıkama yapıyor musunuz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. Moloz, alçı, boya kazıma ve koltuk/halı yıkama alınmaz. Odak noktamız oturulan ev, çalışan ofis ve apartman ortak alanıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.rutintemizlikantalya.com.tr/#website",
+      "url": "https://www.rutintemizlikantalya.com.tr/",
+      "name": "Rutin Temizlik",
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://www.rutintemizlikantalya.com.tr/#isletme" }
+    }
+  ]
+}
